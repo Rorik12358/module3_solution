@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+.navbar-brand {
+	height: auto;
+}
+.navbar, article {
+	background-color: #aaa;
+	margin:0;
+}
+.navbar {
+	margin: 0;
+}
+#nav-list a {
+	padding: 0;
+}
+@media (max-width: 767px){
+	#collapsabale-nav {
+		background-color: #eee;
+	}
+}
